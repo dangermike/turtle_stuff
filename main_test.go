@@ -139,7 +139,7 @@ func TestSierpinski(tst *testing.T) {
 			lcl := instructions // so we don't lose our place
 			step := float64(MaxSize >> i)
 			DoTest(tst, func(t *terrapin.Terrapin) bool {
-				t.Color = color.RGBA{0x7f, 0x7f, 0x7f, 0xff}
+				t.Color = color.RGBA{0x7f, 0x7f, 0xff, 0xff}
 				if len(lcl) == 0 {
 					return false
 				}
