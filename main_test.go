@@ -81,7 +81,7 @@ func DoTest(tst *testing.T, move func(t *terrapin.Terrapin) bool) {
 	}
 }
 
-func TestEuclidianSpiral(tst *testing.T) {
+func TestEulerSpiral(tst *testing.T) {
 	i := 0
 	angle := 0.0
 	twopi := math.Pi * 2
